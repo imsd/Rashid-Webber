@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rotating : MonoBehaviour {
 
 	// Use this for initialization
-	public Vector3 myRotation;
+	public Vector3 	myRotation;
 	void Start () {
 		
 	}
