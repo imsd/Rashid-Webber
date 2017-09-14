@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Challenge1.unity
+- path: Assets/G-machine.unity
   isLoaded: 1
   isActive: 1
