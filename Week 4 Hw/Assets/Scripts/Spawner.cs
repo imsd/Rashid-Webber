@@ -1,0 +1,20 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spawner : MonoBehaviour {
+
+    public GameObject balls;
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		if (Input.GetKeyDown ("s")) {
+			Instantiate (balls, transform.position, Quaternion.identity);
+		}
+	}
+}
