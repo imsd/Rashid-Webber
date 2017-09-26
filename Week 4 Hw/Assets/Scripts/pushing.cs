@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class pushing : MonoBehaviour {
 
+	public int moveSpeed;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,6 +14,7 @@ public class pushing : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if(Input.GetKeyDown()
+		if(Input.GetKeyDown("space"))
+			transform.Translate(0,0,moveSpeed * Time.deltaTime);
 	}
 }
