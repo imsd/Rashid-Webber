@@ -37,7 +37,7 @@ public class stageSpawner : MonoBehaviour {
 		countdown += Time.deltaTime;
 		if(countdown > 12){
 			celebrate = !celebrate;
-			Debug.Log ("Ready to fire captain");
+		//	Debug.Log ("Ready to fire captain");
 		}
 	}
 }
