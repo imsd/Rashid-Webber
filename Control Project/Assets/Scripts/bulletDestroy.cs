@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class bulletDestroy : MonoBehaviour {
 	public float  timer;
+	public int secondsTillboom;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,7 +15,7 @@ public class bulletDestroy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		timer += Time.deltaTime;
-		if(timer > 5 ){
+		if(timer > secondsTillboom ){
 			Destroy (this.gameObject);
 		}
 	}

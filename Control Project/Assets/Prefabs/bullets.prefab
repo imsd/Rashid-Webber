@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54450173640336464}
   - component: {fileID: 114038963084531042}
   m_Layer: 0
-  m_Name: Bullets
+  m_Name: bullets
   m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  secondsTillboom: 5
 --- !u!135 &135313612339333058
 SphereCollider:
   m_ObjectHideFlags: 1
