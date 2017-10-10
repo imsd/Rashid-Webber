@@ -2,7 +2,7 @@
 
 ## Summary
 
-Spawn objects and taaargets. Targets can be shot and destroyed. Clicking on objects will initiate a countodwn and shake rapidly before finally launching up. 
+Spawn objects and targets. Targets can be shot and destroyed. Clicking on objects will initiate a countodwn and shake rapidly before finally launching up. 
 
 
 ## How to play
