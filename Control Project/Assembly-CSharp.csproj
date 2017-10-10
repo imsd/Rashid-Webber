@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\bulletDestroy.cs" />
      <Compile Include="Assets\Scripts\explodeChan.cs" />
      <Compile Include="Assets\Scripts\gameCamerOverlord.cs" />
+     <Compile Include="Assets\Scripts\snapShot.cs" />
      <Compile Include="Assets\Scripts\stageSpawner.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
  <Reference Include="UnityEngine.UI">
