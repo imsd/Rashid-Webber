@@ -7,14 +7,14 @@ public class arrayStringExanmpe : MonoBehaviour {
 
 	public string [] names;
 	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
-	public string [] places;
+	public string [] verbs;
+	public string [] places2;
+	public string [] items;
+//	public string [] places;
+//	public string [] places;
+//	public string [] places;
+//	public string [] places;
+//	public string [] places;
 
 	// public string [] Not array;
 
@@ -31,7 +31,11 @@ public class arrayStringExanmpe : MonoBehaviour {
 		int randPlaces = Random.Range (0, places.Length);
 //		Debug.Log(names [rando]);
 
-		string line1 = "One day, " + names [randNoun] + " went to " + places[randPlaces] + ".";
+		string line1 = "One day, " + names 
+		[randNoun] + " went to " + places[randPlaces] + "." 
+		+" " names[randNoun] +  " is here to get"
+		
+
 		Debug.Log (line1);
 
 	}
