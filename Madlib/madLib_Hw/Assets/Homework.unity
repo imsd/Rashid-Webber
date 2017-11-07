@@ -143,6 +143,13 @@ MonoBehaviour:
   - Home
   - Supermarket
   - Movies
+  - Laundromat
+  - Pizza Store
+  - Restaurant
+  - Friends House
+  - Pool
+  - Beach
+  - Park
   verbs:
   - eat
   - watch
@@ -160,6 +167,18 @@ MonoBehaviour:
   - Mike
   - Dontae
   - kenneth
+  foodsies:
+  - Burgers
+  - Tacos
+  - Moons
+  topics:
+  - Religion
+  - Politics
+  - Memes
+  jobs:
+  - meme specialist
+  - Doctor
+  - Wizard
 --- !u!4 &502266309
 Transform:
   m_ObjectHideFlags: 0

@@ -11,9 +11,9 @@ public class arrayStringExanmpe : MonoBehaviour {
 	public string [] places2;
 	public string [] items;
 	public string [] names2;
-//	public string [] verbs;
-//	public string [] places;
-//	public string [] places;
+	public string [] foodsies;
+	public string [] topics;
+	public string [] jobs;
 //	public string [] places;
 
 	// public string [] Not array;
@@ -33,12 +33,17 @@ public class arrayStringExanmpe : MonoBehaviour {
 		int randItems = Random.Range (0, items.Length);
 		int randNames2 = Random.Range (0, names2.Length);
 		int randVerbs = Random.Range (0, verbs.Length);
+		int randFood = Random.Range (0, verbs.Length);
+		int randTopics = Random.Range (0, topics.Length);
+		int randJobs = Random.Range (0, jobs.Length);
+		int randPlaces3 = Random.Range (0, places2.Length);
 
 //		Debug.Log(names [rando]);
 
 		string line1 = "One day, " + names [randNoun] + " went to " + places [randPlaces] + "."
 		               + " " + names [randNoun] + " is here to get a/an " + items [randItems] + "." + " " + names [randNoun] + " is greeted by " + names2 [randNames2] + " as he walks by."
-			+ " After chatting for awhile , they both decided to go " + verbs [randVerbs] + " at " + places2[randPlaces2] + ".";
+			+ " After chatting for awhile , they both decided to go " + verbs [randVerbs] + " at " + places2[randPlaces2] + ". They ordered " + foodsies[randFood] + " and talked about " + topics[randTopics] + ". " 
+			+ names[randNoun]  + " found out that " + names2[randNames2] + " is  working as a "  + jobs[randJobs] + " at the " + places[randPlaces3] + ".";
 			;
 		
 
