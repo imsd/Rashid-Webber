@@ -1,0 +1,31 @@
+{
+  "origin":"Welcome to ENT#classnum#: A class where you learn to #verb# #noun.s#, but mostly the prof rambles about #topic#.",
+  "classnum": [ 
+    "1234", 
+    "911", 
+    "5000", 
+    "3582" 
+  ],
+  "verb": [ 
+    "program", 
+    "code", 
+    "circumvent", 
+    "smash",
+    "destroy",
+    "burn out"
+  ],
+  
+  "noun": [ 
+    "robot",
+    "RGB LED",
+    "money",
+    "american flag",
+    "twitter"
+  ],
+  
+  "topic": [ 
+    "socialism",
+    "birdwatching",
+    "veggie burritos"
+  ]
+}
