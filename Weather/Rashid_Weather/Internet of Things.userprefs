@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Weather/GetWeather.cs">
+    <Files>
+      <File FileName="Assets/TextGenerator/GenText.cs" Line="34" Column="75" />
+      <File FileName="Assets/TweetSearch.cs" Line="33" Column="4" />
+      <File FileName="Assets/materials/3d Text Shader.shader" Line="19" Column="1" />
+      <File FileName="Assets/Weather/GetWeather.cs" Line="13" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
