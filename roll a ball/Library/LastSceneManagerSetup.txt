@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Daytona's Balls.unity
-  isLoaded: 1
-  isActive: 1

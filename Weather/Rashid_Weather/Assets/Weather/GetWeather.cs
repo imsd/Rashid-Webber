@@ -44,15 +44,18 @@ public class GetWeather : MonoBehaviour {
 		}
 		if (WeatherType == "Heavy Rain") {
 			HeavyRain.SetActive (true);
+			HeavyCloud.SetActive (true);
 		}
 		if (WeatherType == "Thunder Storm") {
 			ThunderStorm.SetActive (true);
+			HeavyCloud.SetActive (true);
 		}
 		if (WeatherType == "Snow") {
 			Snow.SetActive (true);
 		}
 		if (WeatherType == "Shower") {
 			Shower.SetActive (true);
+			HeavyCloud.SetActive (true);
 		}
 
 	}
