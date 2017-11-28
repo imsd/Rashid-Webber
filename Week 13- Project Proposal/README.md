@@ -1,3 +1,3 @@
 # Project Proposal
 
-###  A Project where anyone either through twitter or a nother site can vote to make a deciosion happening within a game environment. The viewers themseles will be able to control what happens in the game. With twitch, its possible to easilhy show the effects of the choices people make. I am deciding between a random whacky  game or a game where people can decide what happens to the city.
+###  A Project where anyone either through twitter or another site can vote to make a deciosion happening within a game environment. The viewers themselves will be able to control what happens in the game. With twitch, its possible to easily show the effects of the choices people make. I decided to make a a game where people can decide what happens to the city. At certain times, a vote will be called for where plays can vote on major decisions within the city, examples such as using extra funds for students or for building potato powered factories.
