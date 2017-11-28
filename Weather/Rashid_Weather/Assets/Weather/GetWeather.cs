@@ -57,6 +57,9 @@ public class GetWeather : MonoBehaviour {
 			Shower.SetActive (true);
 			HeavyCloud.SetActive (true);
 		}
+		if (WeatherType == "Light Cloud") {
+			LightCloud.SetActive (true);
+		}
 
 	}
 }
