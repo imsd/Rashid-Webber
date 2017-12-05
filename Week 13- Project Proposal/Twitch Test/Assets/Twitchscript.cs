@@ -4,15 +4,21 @@ using UnityEngine;
 using System;
 using System.Net.Sockets;
 using System.IO;		
+using UnityEngine.UI;
+
+
 
 public class Twitchscript : MonoBehaviour {
 
 	private TcpClient twitchClient;
 	private StreamReader reader;
-	private StreamWriter  writer;	
+	private StreamWriter  writer;
+	public Text chatBox;
 
 	public string username, password, channelName; // Get the login infoand name odf my channel
 
+	public Rigidbody player;
+	public int speed;
 
 	// Use this for initialization
 	void Start () {
@@ -38,7 +44,7 @@ public class Twitchscript : MonoBehaviour {
 		writer.WriteLine ("NICK " + username);
 		writer.WriteLine ("USER " + username + " 8 * :" + username);
 		writer.WriteLine ("JOIN #" + channelName);
-		writer.Flush ();
+		writer.Flush ();	
 	}
 	private void ReadChat()
 	{
@@ -47,7 +53,7 @@ public class Twitchscript : MonoBehaviour {
 		{
 			var message = reader.ReadLine ();
 
-	/*		if (message.Contains ("PRIVMSG")) 
+			if (message.Contains ("PRIVMSG")) 
 			{
 				//Get the users name by splitting it from the string
 				var splitPoint = message.IndexOf ("!", 1);
@@ -58,10 +64,29 @@ public class Twitchscript : MonoBehaviour {
 				splitPoint = message.IndexOf(":",1);
 				message = message.Substring (splitPoint + 1);
 				print (String.Format ("{0}: {1}", chatName, message));
+				chatBox.text = chatBox.text + "\n" + String.Format ("{0}: {1}", chatName, message);
+
+				//Run the instructions to control the game
+
+				GameInputs (message);
 			}
-*/
-			print (message);
-			// Debug.Log (message);
+				
 		}
+	}
+	private void GameInputs(string ChatInputs)
+	{
+		if (ChatInputs.ToLower () == "left") 
+		{
+			player.AddForce (Vector3.left * (speed * 1000));
+		}
+		if (ChatInputs.ToLower () == "right") 
+		{
+			player.AddForce (Vector3.right * (speed * 1000));
+		}
+		if (ChatInputs.ToLower () == "forward") 
+		{
+			player.AddForce (Vector3.forward * (speed * 1000));
+		}
+
 	}
 }
