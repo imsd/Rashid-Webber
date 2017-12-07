@@ -68,14 +68,15 @@ public class Twitchscript : MonoBehaviour {
 
 				//Run the instructions to control the game
 
-				GameInputs (message);
+//				GameInputs (message);
 			}
 				
 		}
 	}
+	/*
 	private void GameInputs(string ChatInputs)
 	{
-		if (ChatInputs.ToLower () == "left") 
+		if (ChatInputs.ToLower () == "a") 
 		{
 			player.AddForce (Vector3.left * (speed * 1000));
 		}
@@ -89,4 +90,5 @@ public class Twitchscript : MonoBehaviour {
 		}
 
 	}
+	*/
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BUidlings.unity
+- path: Assets/College Student.unity
   isLoaded: 1
   isActive: 1
