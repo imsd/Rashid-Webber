@@ -10,6 +10,4 @@
 
 ## Screenshot
 ![select](gowork.jpg)
-
-
-![results](weATWORk.jpg)
+![results](work.jpg)
